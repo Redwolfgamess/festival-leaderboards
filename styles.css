@@ -1,0 +1,186 @@
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background-color: #18181c;
+    color: #f0efef;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Header */
+.site-header {
+    background-color: #1f1f23;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+}
+
+.site-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+.logo-text {
+    margin-left: 0.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Buttons */
+.btn-invite {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9495f4;
+    color: white;
+    font-weight: 600;
+    border-radius: 9999px;
+    padding: 0.75rem 2rem;
+    transition: all 0.3s ease;
+}
+
+.btn-invite:hover {
+    background-color: rgb(78, 88, 196);
+}
+
+/* Hero Section */
+.landing-section {
+    background: linear-gradient(225deg, #3a1f5c 0%, #7040f2 100%);
+    padding: 5rem 0;
+}
+
+.hero-btn-invite {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #5731bd;
+    font-weight: 800;
+    font-size: 1.2rem;
+    border-radius: 9999px;
+    padding: 1.25rem 2.25rem;
+    transition: all 0.3s ease;
+}
+
+
+.hero-btn-invite svg {
+    margin-left: 0rem;
+    transition: transform 0.2s ease;
+}
+
+.hero-btn-invite:hover svg {
+    transform: translateX(4px);
+}
+
+.landing-section-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.hero-image img {
+    max-width: 400px;
+    margin-top: 2rem;
+}
+
+/* Features Section */
+.features-row {
+    display: flex;
+    flex-wrap: wrap;         
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.feature-card {
+    background-color: #202024;
+    border-radius: 1rem;
+    border-top: 4px solid #9495f4;
+    padding: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+
+    flex: 1 1 260px;        
+    max-width: 300px;      
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px #0000001a;
+}
+
+.feature-card .description a {
+    color: #9495f4;
+    text-decoration: underline;
+}
+
+.icon-wrapper {
+    font-size: 2rem;
+
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    color: #9ca3af;
+    line-height: 1.5;
+}
+
+/* Invite Section */
+.thatblur {
+    background: linear-gradient(135deg, #1f1f23, #2a2a30);
+    border-radius: 1rem;
+    margin: 2rem 1rem;
+    padding: 3rem 1rem;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #1f1f23;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+}
+
+.site-footer a {
+    color: #9495f4;
+    margin: 0 0.5rem;
+}
